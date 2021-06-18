@@ -1,0 +1,11 @@
+package com.webzifi.app.ws.ui.model.request;
+
+import javax.validation.constraints.NotNull;
+
+public class UpdateDetailsRequestModel {
+	
+	@NotNull(message="First name cannot be null")
+	private String firstName;
+	@NotNull(message="Last name cannot be null")
+	private String lastName;
+}

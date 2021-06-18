@@ -1,0 +1,15 @@
+package com.webzifi.app.ws.userservice.imp;
+
+import com.webzifi.app.ws.ui.model.request.UserDetailsRequestModel;
+import com.webzifi.app.ws.ui.model.response.UserRest;
+import com.webzifi.app.ws.userservice.UserService;
+
+public class UserServiceImp implements UserService {
+
+	@Override
+	public UserRest createUser(UserDetailsRequestModel userDetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

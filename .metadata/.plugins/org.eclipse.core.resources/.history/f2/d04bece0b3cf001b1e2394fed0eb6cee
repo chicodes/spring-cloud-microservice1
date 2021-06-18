@@ -1,0 +1,17 @@
+package com.webzifi.app.ws.exceptions;
+
+import java.net.http.HttpHeaders;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ControllerAdvice
+public class AppExceptionsHandler {
+	
+	@ExceptionHandler(value = {Exception.class})
+	public ResponseEntity<Object> handlerAnyException(Exception ex, WebRequest request){
+		return new ResponseEntity<>(
+				ex, new HttpHeaders(), HttpStatus.INTERNAL_SERVAL_ERROR);
+	}
+}

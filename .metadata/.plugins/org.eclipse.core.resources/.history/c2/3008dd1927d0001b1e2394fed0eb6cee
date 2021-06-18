@@ -1,0 +1,8 @@
+package com.webzifi.app.ws.shared;
+
+import java.util.UUID;
+
+public class Utils{
+	
+	return UUID.randomUUID().toString();
+}

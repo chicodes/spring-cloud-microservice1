@@ -1,0 +1,5 @@
+package com.webzifi.app.ws.userservice;
+
+public interface UserService {
+
+}

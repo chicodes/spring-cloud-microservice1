@@ -1,0 +1,9 @@
+package com.webzifi.app.ws.ui.model.response;
+
+public class UserRest {
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String userId;
+	
+}
