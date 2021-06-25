@@ -1,0 +1,5 @@
+package com.webzifi.app.api.users.ui.model;
+
+public class CreateUserRequestModel {
+
+}

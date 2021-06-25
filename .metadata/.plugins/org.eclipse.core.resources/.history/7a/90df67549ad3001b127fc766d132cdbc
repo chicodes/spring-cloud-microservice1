@@ -1,0 +1,6 @@
+package com.webzifi.app.api.users.service;
+
+public interface UsersService {
+	UserDto createUser( UserDto userDetails);
+	
+}

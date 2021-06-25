@@ -1,0 +1,5 @@
+package com.webzifi.app.api.users.security;
+
+public class WebSecurity {
+
+}

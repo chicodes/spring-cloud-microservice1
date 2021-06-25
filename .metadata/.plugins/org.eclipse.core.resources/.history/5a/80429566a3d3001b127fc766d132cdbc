@@ -1,0 +1,18 @@
+package com.webzifi.app.api.users.service;
+
+import java.util.UUID;
+
+import org.modelmapper.ModelMapper;
+
+import com.webzifi.app.api.users.service.shared.UserDto;
+
+public class UsersServiceImpl implements UsersService {
+
+	@Override
+	public UserDto createUser(UserDto userDetails) {
+		// TODO Auto-generated method stub
+		userDetails.setUserId(UUID.randomUUID().toString());
+		ModelMapper modelMapper = new ModelMapper();
+		return null;
+	}
+}

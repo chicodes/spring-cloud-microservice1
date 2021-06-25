@@ -1,0 +1,17 @@
+package com.webzifi.app.api.users.data;
+
+import java.io.Serializable;
+
+public class UserEntity implements Serializable {
+
+	private static final long serialVersionUID = -8502723952249050865L;
+	
+	private long id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
+	private String userId;
+	private String encryptedPassword;
+
+}

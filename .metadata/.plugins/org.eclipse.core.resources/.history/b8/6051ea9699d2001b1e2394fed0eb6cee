@@ -1,0 +1,6 @@
+
+spring.application.name=users-ws
+server.port=8010
+eureka.client.fetch-registry=false
+eureka.devtools.restart=true
+eureka.client.service-url.defaultZone=http://localhost:8010/eureka

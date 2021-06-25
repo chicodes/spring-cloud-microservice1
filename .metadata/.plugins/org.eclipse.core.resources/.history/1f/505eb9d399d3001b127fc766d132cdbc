@@ -1,0 +1,5 @@
+package com.webzifi.app.api.users.service.shared;
+
+public class UserDto {
+
+}

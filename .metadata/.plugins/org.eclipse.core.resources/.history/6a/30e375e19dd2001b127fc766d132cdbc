@@ -1,0 +1,8 @@
+package com.webzifi.app.api.users.controllers;
+
+public class AccountController {
+	
+	public String Status() {
+		return"account controller is working";
+	}
+}

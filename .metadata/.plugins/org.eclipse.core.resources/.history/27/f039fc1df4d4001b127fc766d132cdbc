@@ -1,0 +1,9 @@
+package com.webzifi.app.api.users.ui.model;
+
+public class CreaUserResponseModel {
+	
+	private String firstName;
+	private String lastName;	
+	private String email;
+	private String userid;
+}
